@@ -1,0 +1,17 @@
+---
+manifest_version: "1"
+name: most-liked-posts2
+description: ~
+roles:
+
+  - id: most_liked_posts
+    provisioning:
+      strategy: create
+      deferred: false
+    dna:
+      bundled: "../dna/workdir/most_liked_posts.dna"
+      properties: ~
+      uuid: ~
+      version: ~
+      clone_limit: 0
+
